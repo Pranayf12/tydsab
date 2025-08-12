@@ -15,7 +15,7 @@ jobs:
          uses:action/checkout@v4
 
 
-      - name:set up python
+       - name:set up python
         uses:action/setup-python@v5
         with:
         python-version:'3.10'
